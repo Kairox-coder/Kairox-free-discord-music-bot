@@ -19,7 +19,7 @@ Cloudflare Worker (API)
 Cloudflare Pages (Dashboard)
    └─ visar leaderboard & statistik publikt
 ❗ Inga tokens eller nycklar finns i frontend.
-1️⃣ SKAPA DISCORD-BOT
+# 1️⃣ SKAPA DISCORD-BOT
 Gå till https://discord.com/developers/applications
 New Application
 Bot → Add Bot
@@ -27,7 +27,7 @@ Kopiera Bot Token (sparas till Render ENV)
 Slå på:
 ✅ Message Content Intent
 ✅ Voice State Intent
-2️⃣ GOOGLE SHEETS (DATABAS)
+# 2️⃣ GOOGLE SHEETS (DATABAS)
 Skapa Sheet
 Skapa ett nytt Google Sheet
 Döp flikar:
@@ -40,7 +40,7 @@ plays
 123
 Alex
 42
-3️⃣ GOOGLE CLOUD – SERVICE ACCOUNT
+# 3️⃣ GOOGLE CLOUD – SERVICE ACCOUNT
 Gå till https://console.cloud.google.com
 Skapa nytt projekt
 Enable:
@@ -52,7 +52,7 @@ Kopiera kod
 
 service-account@project.iam.gserviceaccount.com
 ⚠️ credentials.json ska ALDRIG ligga i frontend
-4️⃣ HOSTA DISCORD-BOT PÅ RENDER
+# 4️⃣ HOSTA DISCORD-BOT PÅ RENDER
 Skapa service
 https://render.com → New Web Service
 Koppla GitHub-repo
@@ -72,7 +72,7 @@ PORT=10000
 credentials.json
 Upload som Secret File
 Mount till /opt/render/project/src/credentials.json
-5️⃣ CLOUDFLARE WORKER (API)
+# 5️⃣ CLOUDFLARE WORKER (API)
 Skapa Worker
 Kopiera kod
 Bash
@@ -89,7 +89,7 @@ Json
   "total_plays": 1234
 }
 ⚠️ Inga Discord-ID eller tokens skickas vidare.
-6️⃣ CLOUDFLARE PAGES (DASHBOARD)
+# 6️⃣ CLOUDFLARE PAGES (DASHBOARD)
 Skapa Pages-projekt
 Koppla frontend-mapp
 Sidan är helt statisk
@@ -101,7 +101,7 @@ Dashboard innehåller:
 🏆 Top users (/play)
 📈 Totala plays
 🤖 Bot-invite-knapp
-7️⃣ SÄKERHET – GARANTIER
+# 7️⃣ SÄKERHET – GARANTIER
 Sak
 Status
 Tokens i frontend
@@ -114,7 +114,7 @@ HTTPS
 ✅ Alltid
 Gratisplan
 ✅ 100%
-8️⃣ HUR MAN UPPDATERAR
+# 8️⃣ HUR MAN UPPDATERAR
 Vill ändra
 Var
 Bot token
@@ -125,7 +125,7 @@ Dashboard design
 Pages
 Statistik
 Sheets
-9️⃣ KLART 🎉
+# 9️⃣ KLART 🎉
 Nu har du:
 Säker Discord-musikbot
 Publik leaderboard
