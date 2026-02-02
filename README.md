@@ -1,4 +1,4 @@
-📊 Discord Music Bot + Public Dashboard (100% Free Stack)
+# 📊 Discord Music Bot + Public Dashboard (100% Free Stack)
 Detta projekt består av:
 🎵 Discord-bot (SoundCloud-only) – hostas på Render
 📄 Google Sheets – privat databas för statistik
