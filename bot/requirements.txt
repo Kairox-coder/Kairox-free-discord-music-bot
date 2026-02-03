@@ -2,5 +2,5 @@ discord.py
 yt-dlp
 gspread
 google-auth
-flask
 aiohttp
+pytz
