@@ -1,17 +1,18 @@
+import os
 from flask import Flask
-import threading
+from threading import Thread
 
 app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "OK", 200
+    return "OK"
 
 def keep_alive():
-    threading.Thread(
+    Thread(
         target=lambda: app.run(
             host="0.0.0.0",
-            port=10000
+            port=int(os.getenv("PORT", "10000"))
         ),
         daemon=True
     ).start()
